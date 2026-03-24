@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "gerenciador-imobi",
+    "slug": "gerenciador-imobi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.dionlleno.gerenciadorimobi"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ef51ee5c-5392-4407-86a6-bc30226e3f2d"
+      }
+    }
+  }
+}

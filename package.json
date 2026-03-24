@@ -1,0 +1,44 @@
+{
+  "name": "gerenciador-imobi",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@react-native-community/datetimepicker": "8.3.0",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/bottom-tabs": "^7.3.12",
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "bcryptjs": "^3.0.2",
+    "expo": "~53.0.8",
+    "expo-app-loading": "^2.1.1",
+    "expo-file-system": "~18.1.10",
+    "expo-font": "~13.3.1",
+    "expo-splash-screen": "~0.30.9",
+    "expo-sqlite": "~15.2.9",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-reanimated-carousel": "^4.0.2",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0",
+    "react-native-web": "^0.20.0",
+    "wa-sqlite": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
