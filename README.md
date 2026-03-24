@@ -1,18 +1,12 @@
-# EASYIMOB
+# EASYIMOB - MOBILE
 
-Projeto de um gerenciado de clientes para consultores imobiliarios.
+Projeto de um gerenciado de clientes, imoveis e commpromissos para consultores imobiliarios autonomos.
 
-## Status
+**Objetivo:** Criar um aplicação mobile usando React Native e Expo Go
 
-Parcialmente comcluido.
+**Foco:** Um gerenciador capaz de armazenar dados dos clientes, dos imoveis e os compromissos.
 
-## Pendente
-
-- Autenticação e valização de acesso via web.
-- Permissões de acesso por tipo de usuario.
-- Validações de dados fornecidos pelo usuario.
-- Implementação do armazenamento de imagens no sistema(banco de dados especifico para imagens).
-
-## Correcoes
-
-- Cor da fonte da modal de detalhes de compromissos
+**Funções:**
+* Manter cadastro de Clientes, Imoveis
+* Manter registro de Compromissos e Agendamentos
+* Autenticação local simples
